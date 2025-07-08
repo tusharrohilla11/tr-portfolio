@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-darkBrown font-body text-white;
+}
+
+/* Add custom class here */
+.hexagon-frame {
+  clip-path: polygon(
+    50% 0%,
+    93% 25%,
+    93% 75%,
+    50% 100%,
+    7% 75%,
+    7% 25%
+  );
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  transition: transform 0.3s ease;
+}
+
+.hexagon-frame:hover {
+  transform: scale(1.05);
+  border-color: rgba(255, 255, 255, 0.3);
+}
