@@ -8,7 +8,7 @@ const projects = [
     name: "Ai Course Generator",
     year: "Mar2025",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: "../../public/images/ai-course.png",
     link: "https://ai-course-generator-beta.vercel.app/",
   },
   {
@@ -29,7 +29,7 @@ const projects = [
     name: "Flappy Bird Game",
     year: "May2024",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: "../../public/images/flappy-bird.png",
     link: "https://flappy-bird-game-orpin.vercel.app/",
   },
 ];
