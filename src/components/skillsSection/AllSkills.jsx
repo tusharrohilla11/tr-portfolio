@@ -5,9 +5,12 @@ import { IoLogoJavascript } from "react-icons/io";
 // import { SiTypescript } from "react-icons/si";
 import { TbBrandCpp } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
+import { SiVercel } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { FaNetworkWired } from "react-icons/fa";
+import { MdComputer } from "react-icons/md";
+import { FaDatabase } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
@@ -25,7 +28,7 @@ const skills = [
     icon: IoLogoJavascript,
   },
   {
-    skill: "c++",
+    skill: "C++",
     icon: TbBrandCpp,
   },
   {
@@ -33,8 +36,8 @@ const skills = [
     icon: FaReact,
   },
   {
-    skill: "Redux",
-    icon: SiRedux,
+    skill: "Vercel",
+    icon: SiVercel,
   },
   {
     skill: "NextJS",
@@ -43,6 +46,18 @@ const skills = [
   {
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
+  },
+  {
+    skill: "Computer Networks",
+    icon: FaNetworkWired,
+  },
+  {
+    skill: "Operating System",
+    icon: MdComputer,
+  },
+  {
+    skill: "DBMS",
+    icon: FaDatabase,
   },
 ];
 
