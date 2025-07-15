@@ -7,7 +7,7 @@ const ContactInfo = () => {
   return (
     <div className="flex flex-col gap-4">
       <SingleInfo text="tusharrohilla1121@gmail.com" Image={HiOutlineMail} />
-      <SingleInfo text="+91 8287920675" Image={FiPhone} />
+      <SingleInfo text="+91 9999999999" Image={FiPhone} />
       <SingleInfo text="Delhi, India" Image={IoLocationOutline} />
     </div>
   );
